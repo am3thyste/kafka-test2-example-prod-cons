@@ -1,4 +1,4 @@
-package com.leansys.fr.controller;
+package com.kafka.fr.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.leansys.fr.service.KafkaService;
+import com.kafka.fr.service.KafkaService;
 
 @RestController
 @RequestMapping(value="/kafkamessage")
